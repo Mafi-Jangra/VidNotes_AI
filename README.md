@@ -1,63 +1,43 @@
-#
-<h1 align="center" id="title">Flight Price Predictor</h1>
+<h1 align="center" id="title">VidNotes AI</h1>
 <h2>🤜Overview</h2>
-This project aims to predict flight prices using machine learning techniques. The goal is to develop a model that can accurately forecast the price of flights based on various features such as departure time, airline, route, and other relevant factors.
+VidNotes AI is a Generative AI project that extracts detailed transcripts from YouTube video URLs using the Gemini-Pro LLM application. This application is deployed on Streamlit, providing users with a seamless interface to input video links, receive comprehensive notes, and download them with just a click.
 
-<h2>📊Dataset</h2>
-Training Data and Test(Unseen) data are provided in the Repository
+<h2>Features</h2>
+    <ul>
+        <li><strong>YouTube Transcript Extraction:</strong> Extracts detailed transcripts from YouTube video URLs using the YouTube Transcript API.</li>
+        <li><strong>Generative AI Integration:</strong> Utilizes the Gemini-Pro LLM for generating comprehensive notes from the extracted transcripts.</li>
+        <li><strong>User-Friendly Interface:</strong> Deployed on Streamlit, offering an intuitive interface for users to input video links and obtain notes.</li>
+        <li><strong>Downloadable Notes:</strong> Provides an option for users to download the generated notes.</li>
+    </ul>
 
 <h2>🚀 Demo</h2>
 
-[https://drive.google.com/file/d/1xOhGmladgctOxHBBSs1fE1JcWEizANtZ/view?usp=drive\_link](https://drive.google.com/file/d/1xOhGmladgctOxHBBSs1fE1JcWEizANtZ/view?usp=drive_link)
-
-<h2>Project Screenshots:</h2>
-
-<img src="project_photos/WhatsApp Image 2024-02-07 at 17.31.47_c98e8628.jpg" alt="project-screenshot"/>
-<img src="project_photos/WhatsApp%20Image%202024-02-07%20at%2019.03.54_413d06cb.jpg">
-<img src="project_photos/WhatsApp%20Image%202024-02-07%20at%2019.04.55_6935baeb.jpg">
-
-## 🧐Project Various Step
-
-### Data Exploration
-I started exploring datasets using pandas, NumPy,matplotlib, pandas profiling and seaborn.
-
-### Model Selection
-Built many Models and out of that i have selected RandomForest Regressor.
-
-### Hyperparameter Optimization
-Using Randomizedsearch CV and GridSearch CV to select the best parameter for training the model
-
-### Model Dump
-As per selected trained model is dumped to pickled format for app development
-
-### Model Accuracy 
-75.4%
-
-
-
-
-
-
-
-
-
-
-
-
+[https://drive.google.com/file/d/1pUieaDNDAqpWPLZwE7xhyflvdTC3HWIa/view?usp=drive_link](https://drive.google.com/file/d/1pUieaDNDAqpWPLZwE7xhyflvdTC3HWIa/view?usp=drive_link)
+<h2>Deployed App Link</h2>
+[https://bodhwal-manju-vidnotes-ai-app-ryyn02.streamlit.app/]
+<h2>Skills and Technologies</h2>
+    <ul>
+        <li><strong>Streamlit:</strong> For creating the web application interface.</li>
+        <li><strong>YouTube Transcript API:</strong> For extracting video transcripts.</li>
+        <li><strong>Generative AI:</strong> Leveraging Gemini-Pro for generating detailed notes.</li>
+        <li><strong>Large Language Models (LLM):</strong> Utilization of LLM for AI-driven text generation.</li>
+    </ul>
 
 <h2>🛠️ Installation Steps:</h2>
 
 <p>1. Clone this repository</p>
 
 ```
-https://github.com/Mafi-Jangra/SkyFare-Insights.git
+
+https://github.com/Mafi-Jangra/VidNotes_AI.git
+
 ```
 
 <p>2. Navigate to the project directory:</p>
 
 ```
-cd Flight_Fare_Predictor
-```
+cd VidNotes_AI
+
 
 <p>3. Create Virtual Environment(Using venv (Python 3 built-in module))</p>
 
@@ -77,41 +57,22 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-<p>6. Run the Flight_Fare_Prediction.ipynb file to make the pickel file which stores the model</p>
+<h2>Usage</h2>
+    <ol>
+        <li><strong>Run the Streamlit application:</strong>
+            <pre><code>streamlit run app.py</code></pre>
+        </li>
+        <li><strong>Input YouTube Video URL:</strong>
+            <p>Open your web browser and navigate to the provided local URL. Enter the YouTube video URL in the input field.</p>
+        </li>
+        <li><strong>Generate and Download Notes:</strong>
+            <p>Click on the "Generate Notes" button to get the detailed transcript. Use the "Download Notes" button to download the notes.</p>
+        </li>
+    </ol>
 
-<p>7. Run the application.py file</p>
-
-```
-python application.py
-```
-
-
-
-
-<h2>💻 Built with</h2>
-
-Technologies used in the project:
-
-*   Machine Learning
-*   Flask
-*   Python
-*   HTML
-*   CSS
-
-
-
-
-
-
-
-
-<h2>Deployment using Azure</h2>
-[https://flightfarepredictor.azurewebsites.net/]
-
-
-
-
+   
 <h2>🛡️ License:</h2>
 
 This project is licensed under the MIT License
- Online Python compiler (interpreter) to run Python online.
+
+
